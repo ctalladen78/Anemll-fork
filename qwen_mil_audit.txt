@@ -1,0 +1,225 @@
+input {
+  name: "input_ids"
+  type {
+    multiArrayType {
+      shape: 1
+      shape: 1
+      dataType: INT32
+    }
+  }
+}
+input {
+  name: "position_ids"
+  type {
+    multiArrayType {
+      shape: 1
+      dataType: INT32
+    }
+  }
+}
+input {
+  name: "causal_mask"
+  type {
+    multiArrayType {
+      shape: 1
+      shape: 1
+      shape: 1
+      shape: 8192
+      dataType: FLOAT16
+    }
+  }
+}
+output {
+  name: "logits1"
+  type {
+    multiArrayType {
+      shape: 1
+      shape: 1
+      shape: 9496
+      dataType: FLOAT16
+    }
+  }
+}
+output {
+  name: "logits2"
+  type {
+    multiArrayType {
+      shape: 1
+      shape: 1
+      shape: 9496
+      dataType: FLOAT16
+    }
+  }
+}
+output {
+  name: "logits3"
+  type {
+    multiArrayType {
+      shape: 1
+      shape: 1
+      shape: 9496
+      dataType: FLOAT16
+    }
+  }
+}
+output {
+  name: "logits4"
+  type {
+    multiArrayType {
+      shape: 1
+      shape: 1
+      shape: 9496
+      dataType: FLOAT16
+    }
+  }
+}
+output {
+  name: "logits5"
+  type {
+    multiArrayType {
+      shape: 1
+      shape: 1
+      shape: 9496
+      dataType: FLOAT16
+    }
+  }
+}
+output {
+  name: "logits6"
+  type {
+    multiArrayType {
+      shape: 1
+      shape: 1
+      shape: 9496
+      dataType: FLOAT16
+    }
+  }
+}
+output {
+  name: "logits7"
+  type {
+    multiArrayType {
+      shape: 1
+      shape: 1
+      shape: 9496
+      dataType: FLOAT16
+    }
+  }
+}
+output {
+  name: "logits8"
+  type {
+    multiArrayType {
+      shape: 1
+      shape: 1
+      shape: 9496
+      dataType: FLOAT16
+    }
+  }
+}
+output {
+  name: "logits9"
+  type {
+    multiArrayType {
+      shape: 1
+      shape: 1
+      shape: 9496
+      dataType: FLOAT16
+    }
+  }
+}
+output {
+  name: "logits10"
+  type {
+    multiArrayType {
+      shape: 1
+      shape: 1
+      shape: 9496
+      dataType: FLOAT16
+    }
+  }
+}
+output {
+  name: "logits11"
+  type {
+    multiArrayType {
+      shape: 1
+      shape: 1
+      shape: 9496
+      dataType: FLOAT16
+    }
+  }
+}
+output {
+  name: "logits12"
+  type {
+    multiArrayType {
+      shape: 1
+      shape: 1
+      shape: 9496
+      dataType: FLOAT16
+    }
+  }
+}
+output {
+  name: "logits13"
+  type {
+    multiArrayType {
+      shape: 1
+      shape: 1
+      shape: 9496
+      dataType: FLOAT16
+    }
+  }
+}
+output {
+  name: "logits14"
+  type {
+    multiArrayType {
+      shape: 1
+      shape: 1
+      shape: 9496
+      dataType: FLOAT16
+    }
+  }
+}
+output {
+  name: "logits15"
+  type {
+    multiArrayType {
+      shape: 1
+      shape: 1
+      shape: 9496
+      dataType: FLOAT16
+    }
+  }
+}
+output {
+  name: "logits16"
+  type {
+    multiArrayType {
+      shape: 1
+      shape: 1
+      shape: 9496
+      dataType: FLOAT16
+    }
+  }
+}
+metadata {
+  userDefined {
+    key: "com.github.apple.coremltools.version"
+    value: "9.0"
+  }
+  userDefined {
+    key: "com.github.apple.coremltools.source"
+    value: "torch==2.5.0"
+  }
+  userDefined {
+    key: "com.github.apple.coremltools.source_dialect"
+    value: "TorchScript"
+  }
+  userDefined {
+    key: "com.github.apple.coremltools.conversion_date"
+    value: "2026-04-04"
+  }
+}
