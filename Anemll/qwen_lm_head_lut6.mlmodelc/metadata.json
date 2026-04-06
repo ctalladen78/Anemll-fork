@@ -1,0 +1,221 @@
+[
+  {
+    "shortDescription" : "Anemll Model (LM Head) converted to CoreML",
+    "metadataOutputVersion" : "3.0",
+    "outputSchema" : [
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float16",
+        "formattedType" : "MultiArray (Float16 1 × 1 × 9496)",
+        "shortDescription" : "",
+        "shape" : "[1, 1, 9496]",
+        "name" : "logits1",
+        "type" : "MultiArray"
+      },
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float16",
+        "formattedType" : "MultiArray (Float16 1 × 1 × 9496)",
+        "shortDescription" : "",
+        "shape" : "[1, 1, 9496]",
+        "name" : "logits2",
+        "type" : "MultiArray"
+      },
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float16",
+        "formattedType" : "MultiArray (Float16 1 × 1 × 9496)",
+        "shortDescription" : "",
+        "shape" : "[1, 1, 9496]",
+        "name" : "logits3",
+        "type" : "MultiArray"
+      },
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float16",
+        "formattedType" : "MultiArray (Float16 1 × 1 × 9496)",
+        "shortDescription" : "",
+        "shape" : "[1, 1, 9496]",
+        "name" : "logits4",
+        "type" : "MultiArray"
+      },
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float16",
+        "formattedType" : "MultiArray (Float16 1 × 1 × 9496)",
+        "shortDescription" : "",
+        "shape" : "[1, 1, 9496]",
+        "name" : "logits5",
+        "type" : "MultiArray"
+      },
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float16",
+        "formattedType" : "MultiArray (Float16 1 × 1 × 9496)",
+        "shortDescription" : "",
+        "shape" : "[1, 1, 9496]",
+        "name" : "logits6",
+        "type" : "MultiArray"
+      },
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float16",
+        "formattedType" : "MultiArray (Float16 1 × 1 × 9496)",
+        "shortDescription" : "",
+        "shape" : "[1, 1, 9496]",
+        "name" : "logits7",
+        "type" : "MultiArray"
+      },
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float16",
+        "formattedType" : "MultiArray (Float16 1 × 1 × 9496)",
+        "shortDescription" : "",
+        "shape" : "[1, 1, 9496]",
+        "name" : "logits8",
+        "type" : "MultiArray"
+      },
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float16",
+        "formattedType" : "MultiArray (Float16 1 × 1 × 9496)",
+        "shortDescription" : "",
+        "shape" : "[1, 1, 9496]",
+        "name" : "logits9",
+        "type" : "MultiArray"
+      },
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float16",
+        "formattedType" : "MultiArray (Float16 1 × 1 × 9496)",
+        "shortDescription" : "",
+        "shape" : "[1, 1, 9496]",
+        "name" : "logits10",
+        "type" : "MultiArray"
+      },
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float16",
+        "formattedType" : "MultiArray (Float16 1 × 1 × 9496)",
+        "shortDescription" : "",
+        "shape" : "[1, 1, 9496]",
+        "name" : "logits11",
+        "type" : "MultiArray"
+      },
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float16",
+        "formattedType" : "MultiArray (Float16 1 × 1 × 9496)",
+        "shortDescription" : "",
+        "shape" : "[1, 1, 9496]",
+        "name" : "logits12",
+        "type" : "MultiArray"
+      },
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float16",
+        "formattedType" : "MultiArray (Float16 1 × 1 × 9496)",
+        "shortDescription" : "",
+        "shape" : "[1, 1, 9496]",
+        "name" : "logits13",
+        "type" : "MultiArray"
+      },
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float16",
+        "formattedType" : "MultiArray (Float16 1 × 1 × 9496)",
+        "shortDescription" : "",
+        "shape" : "[1, 1, 9496]",
+        "name" : "logits14",
+        "type" : "MultiArray"
+      },
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float16",
+        "formattedType" : "MultiArray (Float16 1 × 1 × 9496)",
+        "shortDescription" : "",
+        "shape" : "[1, 1, 9496]",
+        "name" : "logits15",
+        "type" : "MultiArray"
+      },
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float16",
+        "formattedType" : "MultiArray (Float16 1 × 1 × 9496)",
+        "shortDescription" : "",
+        "shape" : "[1, 1, 9496]",
+        "name" : "logits16",
+        "type" : "MultiArray"
+      }
+    ],
+    "version" : "0.1.1",
+    "modelParameters" : [
+
+    ],
+    "author" : "Converted with Anemll v0.1.1",
+    "specificationVersion" : 9,
+    "storagePrecision" : "Mixed (Float16, Palettized (18 bits), UInt6)",
+    "mlProgramOperationTypeHistogram" : {
+      "Ios18.transpose" : 17,
+      "Ios18.constexprLutToDense" : 16,
+      "Ios18.expandDims" : 1,
+      "Ios18.conv" : 16,
+      "Ios18.squeeze" : 16
+    },
+    "computePrecision" : "Mixed (Float16, Int32)",
+    "stateSchema" : [
+
+    ],
+    "isUpdatable" : "0",
+    "availability" : {
+      "macOS" : "15.0",
+      "tvOS" : "18.0",
+      "visionOS" : "2.0",
+      "watchOS" : "11.0",
+      "iOS" : "18.0",
+      "macCatalyst" : "18.0"
+    },
+    "modelType" : {
+      "name" : "MLModelType_mlProgram"
+    },
+    "inputSchema" : [
+      {
+        "hasShapeFlexibility" : "0",
+        "isOptional" : "0",
+        "dataType" : "Float16",
+        "formattedType" : "MultiArray (Float16 1 × 1 × 2048)",
+        "shortDescription" : "",
+        "shape" : "[1, 1, 2048]",
+        "name" : "hidden_states",
+        "type" : "MultiArray"
+      }
+    ],
+    "userDefinedMetadata" : {
+      "com.github.apple.coremltools.source" : "torch==2.5.0",
+      "com.github.apple.coremltools.version" : "9.0",
+      "com.github.apple.coremltools.conversion_date" : "2026-02-07",
+      "com.anemll.context_length" : "2048",
+      "com.github.apple.coremltools.source_dialect" : "TorchScript",
+      "com.anemll.info" : "Converted with Anemll v0.1.1",
+      "com.anemll.lut_bits" : "6"
+    },
+    "generatedClassName" : "qwen_lm_head_lut6",
+    "method" : "predict"
+  }
+]

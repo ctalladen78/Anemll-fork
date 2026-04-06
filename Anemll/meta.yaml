@@ -1,0 +1,54 @@
+model_info:
+  name: anemll-Qwen-Qwen3-1.7B-ctx2048
+  version: 0.3.5
+  description: |
+    Demonstarates running Qwen-Qwen3-1.7B on Apple Neural Engine
+    Context length: 2048
+    Batch size: 64
+    Chunks: 2
+  license: MIT
+  author: Anemll
+  framework: Core ML
+  language: Python
+  architecture: qwen3
+  parameters:
+    context_length: 2048
+    batch_size: 64
+    lut_embeddings: none
+    lut_ffn: 6
+    lut_ffn_per_channel: 4
+    lut_lmhead: 6
+    lut_lmhead_per_channel: 4
+    num_chunks: 2
+    model_prefix: qwen
+    embeddings: qwen_embeddings.mlmodelc
+    lm_head: qwen_lm_head_lut6.mlmodelc
+    ffn: qwen_FFN_PF_lut6_chunk_01of02.mlmodelc
+    split_lm_head: 16
+    prefill_dynamic_slice: true
+
+# =============================================================================
+# Conversion Parameters (for troubleshooting)
+# =============================================================================
+# Generated: 2026-02-07 14:39:01
+#
+# model_path: /Users/anemll/.cache/huggingface/hub/models--Qwen--Qwen3-1.7B/snapshots/0060bc56d46589041c1048efd1a397421b1142b5
+# output_dir: /Volumes/Models/ANE/qwen3_1.7b_ctx2048_lut6
+# context_length: 2048
+# batch_size: 64
+# num_chunks: 2
+# lut_part1: none
+# lut_part2: 6,4
+# lut_part3: 6,4
+# prefix: qwen
+# architecture: qwen3
+# argmax_in_model: false
+# split_rotate: false
+# sliding_window: 512
+# fp16_scale: "null"
+# clamp: "null"
+# single_cache: false
+# dynamic_prefill_slice: false
+# monolithic: false
+# anemll_version: 0.3.5
+# =============================================================================

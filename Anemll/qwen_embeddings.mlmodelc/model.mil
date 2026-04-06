@@ -1,0 +1,16 @@
+program(1.3)
+[buildInfo = dict<string, string>({{"coremlc-component-MIL", "3510.2.1"}, {"coremlc-version", "3500.32.1"}, {"coremltools-component-torch", "2.5.0"}, {"coremltools-source-dialect", "TorchScript"}, {"coremltools-version", "9.0"}})]
+{
+    func main<ios18>(tensor<int32, [1, ?]> input_ids) [FlexibleShapeInformation = tuple<tuple<string, dict<string, tensor<int32, [?]>>>, tuple<string, dict<string, dict<string, tensor<int32, [?]>>>>>((("DefaultShapes", {{"input_ids", [1, 1]}}), ("EnumeratedShapes", {{"79ae981e", {{"input_ids", [1, 1]}}}, {"ed9b58c8", {{"input_ids", [1, 64]}}}})))] {
+            int32 hidden_states_batch_dims_0 = const()[name = string("hidden_states_batch_dims_0"), val = int32(0)];
+            bool hidden_states_validate_indices_0 = const()[name = string("hidden_states_validate_indices_0"), val = bool(false)];
+            tensor<fp16, [151936, 2048]> embed_tokens_weight_to_fp16 = const()[name = string("embed_tokens_weight_to_fp16"), val = tensor<fp16, [151936, 2048]>(BLOBFILE(path = string("@model_path/weights/weight.bin"), offset = uint64(64)))];
+            int32 greater_equal_0_y_0 = const()[name = string("greater_equal_0_y_0"), val = int32(0)];
+            tensor<bool, [1, ?]> greater_equal_0 = greater_equal(x = input_ids, y = greater_equal_0_y_0)[name = string("greater_equal_0")];
+            int32 slice_by_index_0 = const()[name = string("slice_by_index_0"), val = int32(151936)];
+            tensor<int32, [1, ?]> add_0 = add(x = input_ids, y = slice_by_index_0)[name = string("add_0")];
+            tensor<int32, [1, ?]> select_0 = select(a = input_ids, b = add_0, cond = greater_equal_0)[name = string("select_0")];
+            int32 hidden_states_cast_fp16_axis_0 = const()[name = string("hidden_states_cast_fp16_axis_0"), val = int32(0)];
+            tensor<fp16, [1, ?, 2048]> hidden_states = gather(axis = hidden_states_cast_fp16_axis_0, batch_dims = hidden_states_batch_dims_0, indices = select_0, validate_indices = hidden_states_validate_indices_0, x = embed_tokens_weight_to_fp16)[name = string("hidden_states_cast_fp16")];
+        } -> (hidden_states);
+}
